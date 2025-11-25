@@ -52,8 +52,8 @@ class ReActAgent(Agent):
     def __init__(
         self,
         name: str,
-        llm: HelloAgentsLLM,
         tool_registry: ToolRegistry,
+        llm: HelloAgentsLLM,
         system_prompt: Optional[str] = None,
         config: Optional[Config] = None,
         max_steps: int = 5,
